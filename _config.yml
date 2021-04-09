@@ -1,0 +1,10 @@
+title: Quotes
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://quotes.goyllo.com" # the base hostname & protocol for your site
+
+include: ['_pages']
+
+permalink: /:categories/:title.html
+
+plugins:
+  - jekyll-redirect-from
