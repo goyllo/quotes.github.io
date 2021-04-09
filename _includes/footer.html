@@ -1,0 +1,68 @@
+<script>
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('/sw.js').then(function(registration) {
+      // Registration was successful
+      console.log('ServiceWorker registration successful with scope: ', registration.scope);
+    }, function(err) {
+      // registration failed :(
+      console.log('ServiceWorker registration failed: ', err);
+    });
+  });
+}
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-98100163-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+    <!--<p class="footer-heading">	&copy; {{ site.title }}</p>-->
+
+    <div class="footer-col-wrapper">
+		<div class="footer-col footer-col-1">
+			<ul class="contact-list"><p class="footer-heading"><a style="color:#828282" href="/hindi-status/">Hindi Status</a></p>
+			  <li><a style="color:#828282" href="/funny-status/">Funny Status</a></li>
+			  <li><a style="color:#828282" href="/attitude-status/">Attitude Status</a></li>
+			  <li><a style="color:#828282" href="/mahadev-status/">Mahadev Status</a></li>
+			  <li><a style="color:#828282" href="/love-status/">Love Status</a></li>
+			  <li><a style="color:#828282" href="/sad-status/">Sad Status</a></li>
+			  <li><a style="color:#828282" href="/indian-army-status/">Indian Army Status</a></li>
+			  <li><a style="color:#828282" href="/mother-status/">Mother Status</a></li>
+			  <li><a style="color:#828282" href="/life-status/">Life Status</a></li>
+			  <li><a style="color:#828282" href="/friendship-status/">Friendship Status</a></li>
+			  <li><a style="color:#828282" href="/girls-status/">Girls Status</a></li>
+			  <li><a style="color:#828282" href="/pubg-status/">Pubg Status</a></li>
+			</ul>
+        </div>
+	
+	    <div class="footer-col footer-col-2">
+			<ul class="social-media-list"><p class="footer-heading"><a style="color:#828282" href="/hindi-jokes/">Hindi Jokes</a></p>
+			  <li><a style="color:#828282" href="/teacher-student-jokes/">Teacher Student Jokes</a></li>
+			  <li><a style="color:#828282" href="/husband-wife-jokes/">Husband Wife Jokes</a></li>
+			</ul>
+        </div> 
+	  
+        <div class="footer-col footer-col-3">
+			<ul class="contact-list"><p class="footer-heading"><a style="color:#828282" href="/hindi-shayari/">Hindi Shayari</a></p>
+			  <li><a style="color:#828282" href="/love-shayari/">Love Shayari</a></li>
+			  <li><a style="color:#828282" href="/dard-shayari/">Dard Shayari</a></li>
+			</ul>
+        </div>
+	<!--<div class="footer-col footer-col-4">
+			<ul class="contact-list"><p class="footer-heading"><a style="color:#828282" href="/apps/">Install our App</a></p>
+			</ul>
+        </div>-->
+    </div>
+
+  </div>
+
+</footer>
